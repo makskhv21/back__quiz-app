@@ -1,0 +1,30 @@
+{
+  "name": "backend__quiz-app",
+  "version": "1.0.0",
+  "description": "My project quiz app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makskhv21/backend__quiz-app.git"
+  },
+  "author": "Maksym Khvyts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makskhv21/backend__quiz-app/issues"
+  },
+  "homepage": "https://github.com/makskhv21/backend__quiz-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "cryptr": "^6.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "generate-password": "^1.7.1",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.8"
+  }
+}
